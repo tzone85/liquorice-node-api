@@ -4,11 +4,12 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const graphQl = require('graphql');
 const dotEnv = require('dotenv');
-
+const cors = require('cors')
 dotEnv.config();
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 app.get('/api/users', (req, res) => {
     User.findAll().then(data => {
