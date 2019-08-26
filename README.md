@@ -4,7 +4,7 @@ Urls:
 
 - [development] (http://localhost/users-api/)
 
-##Setup
+## Setup
 
 ## Node Version
 - Execute `nvm use 10.16.3` in terminal
