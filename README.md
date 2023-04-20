@@ -1,4 +1,22 @@
 # liquorice-node-api
+## Structure
+```bash
+.
+├── README.md
+├── config
+│   ├── config.json
+│   └── db.js
+├── migrations
+│   └── 20190822091756-create-user.js
+├── models
+│   ├── index.js
+│   └── user.js
+├── package-lock.json
+├── package.json
+├── seeders
+│   └── 20190822092514-user-seeder.js
+└── server.js
+```
 Urls:
 - [development](http://localhost/users-api)
 
